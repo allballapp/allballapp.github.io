@@ -154,11 +154,14 @@ input:-internal-autofill-previewed, input:-internal-autofill-selected, textarea:
         border-radius: 500px;
         text-transform: uppercase;
         transition: all .3s ease;
+        outline: none;
 }
 .input-container .submit-button:hover {
         background: #222222;
         box-shadow: 0px 2px 10px #262d4770;
-
+}
+.input-container .submit-button:focus {
+        outline: none;
 }
 .private-beta-wrapper {
         display: flex;
@@ -269,6 +272,8 @@ input:-internal-autofill-previewed, input:-internal-autofill-selected, textarea:
         .disclaimer {
                 text-align: center !important;
                 margin: 0 !important;
+                padding: 0 !important;
+                bottom: 0 !important;
         }
 }
       
