@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ALLBALL: The Best NBA App</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Sans+Narrow:700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fontawesome/css/all.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="home-page-container">
+        <header class="site-header">
+            <div class="site-header-content">
+				<img src="images/logo-white.png" width="64px" height="64px">
+				<span class="logo-text">ALLBALL</span>
+			</div>
+        </header>
+
+        <main>
+            <section class="hero">
+				<div class="hero-content">
+					<div class="hero-info">
+						<div class="private-beta-wrapper">
+							<span class="private-beta">Private Beta</span>
+							<i class="fab fa-apple"></i>
+							<i class="fab fa-android"></i>
+						</div>
+						<div class="hero-title">The Best NBA App Ever</div>
+						<div class="hero-description">ALLBALL is the ultimate NBA app complete with everything you'd expect from a sports app as well as unique social features.</div>
+						
+						<form class="input-container" action="javascript:;" onsubmit="insert_value()">
+							<input type="email" id="email" class="input-email" placeholder="Email">
+							<button type="submit" class="submit-button">
+								<span class="hide-mobile">Request Invite</span>
+								<span class="show-mobile"><i class="far fa-check"></i></span>
+							</button>
+						</form>
+						<div class="disclaimer">Private beta code will be sent to the email above.</div>
+					</div>
+					<div class="hero-images">
+						<img id="allgames" src="images/iphone-allgames.png">
+						<img id="gamethread" src="images/iphone-gamethread.png">
+						<div class="disclaimer">Actual screenshots</div>
+					</div>
+					
+				</div>
+				<div class="hero-features">
+					<div class="hero-feature">
+						<div class="feature-image">
+							<img src="images/scores-and-stats.png">
+						</div>
+						<div class="feature-text">
+							<div class="big">Scores &amp; Stats</div>
+							<div class="small">Up-to-date scores, box scores, team statistics, matchup information, and more.</div>		
+						</div>
+					</div>
+					<div class="hero-feature">
+						<div class="feature-image">
+							<img src="images/social-icons.png">
+						</div>
+						<div class="feature-text">
+							<div class="big">Social</div>
+							<div class="small">Reddit game threads and post game threads, customizable Twitter feed<span class="asterisk">*</span>, and realtime live chat<span class="asterisk">*</span>.</div>
+						</div>
+					</div>
+					<div class="hero-feature">
+						<div class="feature-image">
+							<img src="images/alternate-logos.png">
+						</div>
+						<div class="feature-text">
+							<div class="big">Much More</div>
+							<div class="small">Customize team logos, setup custom alerts<span class="asterisk">*</span>, vote on which new feature is added next.</div>
+						</div>
+						<div class="disclaimer">* Feature may not be available for beta</div>
+					</div>
+				</div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+			<div class="footer-container">
+				<div class="footer-copyright">&copy; 2019 ALLBALL</div>
+			</div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

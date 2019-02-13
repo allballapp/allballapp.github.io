@@ -1,0 +1,274 @@
+body {
+        padding: 0;
+        margin: 0;
+        font-family: 'PT Sans Caption';
+        color: white;
+        background: #1c2134;
+        width: 100vw;
+}
+input:-internal-autofill-previewed, input:-internal-autofill-selected, textarea:-internal-autofill-previewed, textarea:-internal-autofill-selected, select:-internal-autofill-previewed, select:-internal-autofill-selected {
+        background-color: white !important;
+        background-image: none !important;
+        color: rgb(0, 0, 0) !important;
+}
+
+.site-header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+.site-header-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        line-height: 100%;
+        padding: 1rem;
+        font-size: 1.5rem;
+        letter-spacing: .25rem;
+}
+.site-header-content .logo-text{
+        margin-left: 1rem;
+}
+
+.hero-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10%;
+        height: 100vh;
+        max-width: 1600px;
+        overflow: hidden;
+}
+.hero-content .hero-info {
+        position: relative;
+        width: 50%;
+        padding-right: 10%;
+        text-align: left;
+}
+.hero-content .hero-info .hero-title {
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 700;
+        margin: 2rem 0;
+}
+.hero-content .hero-info .hero-description {
+        font-family: 'PT Sans';
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgba(255,255,255,.7);
+        margin: 0 0 2rem 0;
+}
+.hero-features {
+        position: relative;
+        font-size: 1rem;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        text-align: left;
+        margin: 2rem 0;
+        
+}
+.hero-features .hero-feature {
+        font-family: 'PT Sans';
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: #262d46;
+        margin: .5rem 0;
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+        width: 20%;
+        max-width: 400px;
+        margin: 1%;
+        text-align: center;
+}
+.hero-features .hero-feature .feature-image {
+        height: 4rem;
+        width: calc(100% + 2rem);
+        margin: 0 -1rem 1rem -1rem;
+}
+.hero-features .hero-feature .feature-image img {
+        /*height: 100%;*/
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+}
+.hero-features .hero-feature .feature-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.hero-features .hero-feature .feature-text .big {
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+}
+.hero-features .hero-feature .feature-text .small {
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+}
+.hero-features .hero-feature .disclaimer {
+        text-align: right;
+        margin-left: -2rem;
+}
+.input-container {
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 500px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.input-container .input-email {
+        font-family: 'PT Sans Caption';
+        font-size: 1rem;
+        color: #1c2134;
+        height: 2.5rem;
+        flex-grow: 1;
+        background: transparent;
+        border: none;
+        margin-left: 1.5rem;
+        outline: none;
+}
+.input-container .input-email:focus {
+        outline: none;
+}
+.input-container .submit-button {
+        font-family: 'PT Sans Caption';
+        font-size: .75rem;
+        line-height: 2.5rem;
+        letter-spacing: .125rem;
+        color: white;
+        height: 2.5rem;
+        margin: .25rem;
+        padding: 0 1.5rem;
+        background: #000000;
+        border-radius: 500px;
+        text-transform: uppercase;
+        transition: all .3s ease;
+}
+.input-container .submit-button:hover {
+        background: #222222;
+        box-shadow: 0px 2px 10px #262d4770;
+
+}
+.private-beta-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 1.75rem;
+        line-height: 1.75rem;
+}
+.private-beta-wrapper .private-beta {
+        background: #000000;
+        border-radius: 500px;
+        padding: .25rem 1rem;
+        font-size: .75rem;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        margin-right: 1rem;
+}
+.private-beta-wrapper .fab {
+        font-size: 1.75rem;
+        padding: 0 .5rem;
+        color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-content .hero-images {
+        position: relative;
+        height: 75%;
+        width: 40%;
+
+}
+.hero-content .hero-images img {
+        max-height: 80vh;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+}
+.hero-content .hero-images img#allgames {
+        max-height: 70vh;
+        transform: translateY(-50%) translateX(80%);
+}
+.hero-content .hero-images .disclaimer {
+        text-align: center;
+        font-size: .5rem;
+}
+.disclaimer {
+        position: absolute;
+        bottom: -1.5rem;
+        left: 0;
+        width: 100%;
+        text-align: left;
+        padding: 0 1.5rem;
+        color: rgba(255, 255, 255, 0.25);
+        font-size: .75rem;
+}
+.asterisk {
+        color: rgba(255, 255, 255, 0.25);
+}
+.footer-container {
+        padding: 2%;
+        color: rgba(255, 255, 255, 0.3);
+}
+
+.hide-mobile { display: initial; }
+.show-mobile { display: none; }
+
+.fa-check {
+        font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+        .hide-mobile { display: none; }
+        .show-mobile { display: initial; }
+
+        .input-container .submit-button {
+                padding: 0;
+                width: 2.5rem;
+                text-align: center;
+        }
+        .hero-content {
+                flex-direction: column;
+        }
+        .hero-content .hero-images {
+                width: 100%;
+        
+        }
+        .hero-content .hero-info {
+                position: relative;
+                width: 100%;
+                padding: 20vh 10% 5vh 10%;
+                text-align: center;
+        }
+        .hero-content .hero-images img#allgames {
+                max-width: 100%;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%)
+        }
+        .hero-content .hero-images img#gamethread {
+                max-width: 100%;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%)
+        }
+        .hero-features .hero-feature {
+                width: 100%;
+                margin: 5% 10%;
+        }
+        .disclaimer {
+                text-align: center !important;
+                margin: 0 !important;
+        }
+}
+      
