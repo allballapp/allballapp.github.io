@@ -1,0 +1,105 @@
+body {
+  background: #1C2135;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8pt;
+}
+.header-content .title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.header-content .done {
+      color: #ffffffb6;
+      font-size: .75rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.terms-content {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+  .terms-content .summary {
+      margin: 8pt 20pt;
+  }
+      .terms-content .summary .date {
+          color: #ffffffb6;
+          font-size: .5rem;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+      }
+      .terms-content .summary h1 {
+          font-weight: bold;
+          font-size: 1rem;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          margin: 2pt 0;
+      }
+  
+  .terms-content .section {
+    margin: 40pt 10pt;
+  }
+  .terms-content .section .date {
+        color: #ffffffb6;
+        font-size: .5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .terms-content .section h1 {
+        font-weight: bold;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .terms-content .section p {
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    .terms-content .section .small {
+        font-size: .5rem;
+        color: #ffffffb6;
+    }
+    .terms-content .section ul {
+        font-size: .75rem;
+        padding-left: 10pt;
+    }
+    .terms-content li {
+            margin: 8pt 0;
+        }
+    
+.table-of-contents {
+    display: flex;
+    flex-direction: column;
+    background: #262d47;
+    border-radius: 8pt;
+    margin: 20pt 10pt;
+    padding: 8pt;
+  }
+    .table-of-contents .title {
+        font-size: .75rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 4pt;
+    }
+      .table-of-contents .link {
+        color: #ffffffb6;
+        font-size: .625rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 3pt 0;
+        text-decoration: none;
+    }
+

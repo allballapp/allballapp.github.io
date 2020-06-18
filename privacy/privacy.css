@@ -1,0 +1,87 @@
+body {
+  background: #1C2135;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8pt;
+}
+.header-content .title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.header-content .done {
+  color: #ffffffb6;
+  font-size: .75rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.privacy-content {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.privacy-content .section {
+  margin: 40pt 10pt;
+}
+.privacy-content .date {
+    color: #ffffffb6;
+    font-size: .5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.privacy-content h1 {
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.privacy-content p {
+    font-weight: normal;
+    font-size: 1rem;
+}
+.privacy-content .small {
+    font-size: .5rem;
+    color: #ffffffb6;
+}
+.privacy-content ul {
+    font-size: .75rem;
+    padding-left: 10pt;
+}
+.privacy-content li {
+    margin: 8pt 0;
+}
+
+
+.table-of-contents {
+  display: flex;
+  flex-direction: column;
+  background: #262d47;
+  border-radius: 8pt;
+  margin: 20pt 10pt;
+  padding: 8pt;
+}
+.table-of-contents .title {
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 4pt;
+}
+.table-of-contents .link {
+  color: #ffffffb6;
+  font-size: .625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 3pt 0;
+  text-decoration: none;
+}
